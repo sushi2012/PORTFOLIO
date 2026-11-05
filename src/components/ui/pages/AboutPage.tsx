@@ -7,7 +7,7 @@ import { rise } from '@/components/ui/motionHelpers'
 import { heroInfo } from '@/data/portfolio'
 
 // ── Replace with your actual Google Drive resume link ─────────────────────────
-const RESUME_URL   = 'https://docs.google.com/document/d/1yZ9pL1Bd7pOOSIPyFSgVrNmhB2gP5Gke/edit?usp=drivesdk&ouid=115506447844201140606&rtpof=true&sd=true'
+const RESUME_URL   = 'https://docs.google.com/document/d/1SQOMunZA0vT99-JwNqewXEe_LgBoIDQ6/edit?usp=drive_link&ouid=115506447844201140606&rtpof=true&sd=true'
 
 // ── Stat badges (bottom row, matching reference) ──────────────────────────────
 const STATS = [
