@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+/* ── Fantasy Portfolio – Global Styles ─────────────────────────────────── */
+
+:root {
+  --fantasy-purple: #7c3aed;
+  --fantasy-violet: #a855f7;
+  --fantasy-gold: #f59e0b;
+  --fantasy-orange: #ea580c;
+  --fantasy-blue: #1d4ed8;
+  --fantasy-sky: #0ea5e9;
+  --fantasy-dark: #0f0a1e;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: var(--fantasy-dark);
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Phaser canvas fills its container */
+canvas {
+  display: block;
+}
+
+/* Custom scrollbar for any overlay panels */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(124, 58, 237, 0.1);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(168, 85, 247, 0.6);
+  border-radius: 3px;
+}
